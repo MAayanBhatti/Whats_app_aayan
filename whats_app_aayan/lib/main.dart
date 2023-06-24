@@ -21,7 +21,7 @@ class _WhatsappState extends State<Whatsapp> {
       theme: ThemeData(primarySwatch: Colors.teal),
       home: DefaultTabController(
         length: 3,
-        initialIndex: 1,
+        initialIndex: 0,
         child: Scaffold(
           appBar: AppBar(
             bottom: const TabBar(
